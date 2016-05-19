@@ -25,7 +25,7 @@ java_import(
             "Exported_deploy.jar",
             "Runtime_deploy.jar",
            ],
-    runtime_deps = ["org_scala_lang__scala_library", "OtherJavaLib"]
+    runtime_deps = ["OtherJavaLib"]
 )
 
 scala_export_to_java(
